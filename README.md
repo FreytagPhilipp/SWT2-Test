@@ -13,9 +13,9 @@ Vorgehensweise:
 - Verbesserungen ermittelt durch Tests:  
   -  Semikolon in Zeile 34
   -  Iterator next-Funktion ab Zeile 60 gefixt (speichere aktuelles current Element zwischen, setze current auf nächstes Element und gib aktuelles Element zurück)
-- Aktivieren von allen Java-Compiler Warnungen auch in pom.xml bei <build>
+- Aktivieren von allen Java-Compiler Warnungen auch in pom.xml bei "build"
   - Warnung für das zusätzliche Semikolon bei den Compiler-Warnungen nach Ausführen von Maven-Goal compile
-- Einfügen Spotbugs-Plugin in pom.xml bei <reporting> und bei <build>  
+- Einfügen Spotbugs-Plugin in pom.xml bei "reporting", "build" und "dependecies"  
   - erkennt in fehlerhafter SimpleLinkedList.java einmal "Style" (das Semikolon bei Zeile 33) und "Bad_Practice" (falscher Code in Zeile 61) , erkennt also beide Fehler
   - auslesbar in generierter spotbugs.html in target/site nach ausführung von "mvn site"
 - Setzen eines Breakpoints für den Debugger von IntelliJ in Main.java bei Zeile 9
