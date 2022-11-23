@@ -30,7 +30,7 @@ public class SimpleLinkedList<E> extends AbstractCollection<E> implements Collec
         if (start == null) {
             start = e;
         }
-        if (end != null); {
+        if (end != null) {
             end.next = e;
         }
         end = e;
@@ -57,10 +57,9 @@ public class SimpleLinkedList<E> extends AbstractCollection<E> implements Collec
 
         @Override
         public E next() {
-            //Elem temp = current;
+            Elem temp = current;
             current = current.next;
-            return current.elem;
-            //return temp.elem;
+            return temp.elem;
         }
 
         @Override
