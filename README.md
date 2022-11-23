@@ -20,3 +20,4 @@ Vorgehensweise:
   - auslesbar in generierter spotbugs.html in target/site nach ausführung von "mvn site"
 - Setzen eines Breakpoints für den Debugger von IntelliJ in Main.java bei Zeile 9
   - auslesen der erstellten Liste test im Debugger
+  ![Screenshot](doc/DebuggerScreenshot.png)
